@@ -42,21 +42,16 @@ document.querySelectorAll('.faq-question').forEach(question => {
 });
 
 // Музыкальный плеер
-const audio = document.getElementById('wedding-song');
-const btn = document.getElementById('playPauseBtn');
-
-if (audio && btn) {
-    audio.play().catch(() => {
-        console.log('Автовоспроизведение заблокировано, нужно нажать кнопку');
-    });
-
-    btn.addEventListener('click', () => {
-        if (audio.paused) {
-            audio.play();
-            btn.innerHTML = '🎵 Выключить музыку';
-        } else {
-            audio.pause();
-            btn.innerHTML = '🎵 Включить музыку';
+<script>
+        function playMusic() {
+            var audio = document.getElementById('wedding-song');
+            var btn = event.target;
+            if (audio.paused) {
+                audio.play();
+                btn.innerHTML = '🎵 Выключить музыку';
+            } else {
+                audio.pause();
+                btn.innerHTML = '🎵 Включить музыку';
+            }
         }
-    });
-}
+    </script>
