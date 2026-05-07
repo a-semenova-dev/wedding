@@ -178,13 +178,12 @@ function handleFormSubmit(event) {
 }
 </script>
 
-  <!-- Музыкальный плеер -->
+  <!-- Музыкальный плеер (упрощённый) -->
     <div class="music-player">
         <audio id="wedding-song" loop preload="auto">
             <source src="song.mp3" type="audio/mpeg">
-            Ваш браузер не поддерживает аудио.
         </audio>
-        <button id="playPauseBtn" class="music-btn">Включить музыку</button>
+        <button onclick="playMusic()" class="music-btn">🎵 Включить музыку</button>
     </div>
 
 </body>
