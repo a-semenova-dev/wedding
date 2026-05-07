@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Подтверждение присутствия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="rsvp-form-container">
+    <h1>Подтверждение присутствия</h1>
+    <p>Мы будем рады видеть вас на нашем торжестве</p>
+
+   <form action="https://docs.google.com/forms/d/e/1FAIpQLSfu0c6_Ag5s8nDwBZImA6Xs-57AZUytdnD4jC5CqIbQhVjeXA/formResponse" method="POST" target="hidden_iframe" onsubmit="return handleFormSubmit(event)">
+
+    <!-- БЛОК 1: ФИО -->
+    <div class="form-block">
+        <label>Ваше имя и фамилия *</label>
+        <input type="text" name="entry.2004936686" placeholder="Ваше имя и фамилия" required>
+    </div>
+
+    <!-- БЛОК 2: Придете ли вы? -->
+    <div class="form-block">
+        <label>Придете ли вы на мероприятие? *</label>
+        <div class="radio-group">
+            <label class="radio-option"><input type="radio" name="entry.1032405879" value="Да, обязательно"> Да, обязательно</label>
+            <label class="radio-option"><input type="radio" name="entry.1032405879" value="К сожалению, нет"> К сожалению, нет</label>
+        </div>
+    </div>
+
+<div class="form-block">
+    <label>Планируете ли вы быть на регистрации в ЗАГСе или присоединитесь позже? *</label>
+        <div class="radio-group">
+            <label class="radio-option"><input type="radio" name="entry.1583271151" value="Да, буду на регистрации"> Да, буду на регистрации</label>
+            <label class="radio-option"><input type="radio" name="entry.1583271151" value="Нет, подъеду на банкет к 16:00"> Нет, подъеду на банкет к 16:00</label>
+        </div>
+    </div>
+
+    <!-- БЛОК 3: Алкоголь (множественный выбор) -->
+    <div class="form-block">
+        <label>Какие алкогольные напитки вы предпочитаете?</label>
+        <p class="hint">Пожалуйста, выбирайте только то, что вы будете пить, чтобы мы смогли правильно рассчитать количество алкоголя</p>
+        <div class="checkbox-group">
+            <label class="checkbox-option"><input type="checkbox" name="entry.412409316" value="Красное вино"> Красное вино</label>
+            <label class="checkbox-option"><input type="checkbox" name="entry.412409316" value="Белое вино"> Белое вино</label>
+            <label class="checkbox-option"><input type="checkbox" name="entry.412409316" value="Водка"> Водка</label>
+            <label class="checkbox-option"><input type="checkbox" name="entry.412409316" value="Коньяк"> Коньяк</label>
+            <label class="checkbox-option"><input type="checkbox" name="entry.412409316" value="Виски"> Виски</label>
+            <label class="checkbox-option"><input type="checkbox" name="entry.412409316" value="Шампанкое"> Шампанское</label>
+            <label class="checkbox-option"><input type="checkbox" name="entry.412409316" value="Не пью алкоголь"> Не ью алкоголь</label>
+            <label class="checkbox-option"><input type="checkbox" name="entry.412409316" value="Другое (укажу в комментарии)"> Другое (укажу в комментарии)</label>
+        </div>
+    </div>
+
+    <!-- БЛОК 4: Дополнительные пожелания -->
+    <div class="form-block">
+        <label>Пожелания или комментарии</label>
+        <textarea name="entry.2114087995" rows="3" placeholder="Пожелания или комментарии (аллергии, особые пожелания)"></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Отправить ответ</button>
+</form>
+
+    <p class="back-link"><a href="index.html">← Вернуться на главную</a></p>
+</main>
+    
+</body>
+</html>

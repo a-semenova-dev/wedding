@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Здесь будет весь контент сайта -->
+    <main>
+        <!-- 1. Герой-блок с фоновой фотографией -->
+    <div class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="names">Артём & Анастасия</h1>
+            <div class="wedding-date-hero">
+                <p class="date-label">Торжество состоится</p>
+                <p class="date-full">10 июля 2026 года</p>
+            </div>
+            <!-- Таймер можно тоже оставить здесь, если хочешь -->
+            <!-- 3. Таймер до свадьбы -->
+        <h3>До нашей свадьбы осталось:</h3>
+        <div class="timer" id="timer">
+            <div><span id="days">0</span> дней</div>
+            <div><span id="hours">0</span> часов</div>
+            <div><span id="minutes">0</span> минут</div>
+            <div><span id="seconds">0</span> секунд</div>
+        </div>
+        </div>
+    </div>
+
+<!-- 4. Немного о нас -->
+    <div class="about-us">
+        <h2>Немного о нас</h2>
+        <div class="about-text">
+            <p>Мы познакомились там, где совсем не планировали искать любовь. Но судьба рассудила иначе.</p>
+            <p>Вместе мы научились ценить каждый момент, поддерживать друг друга и мечтать об одном будущем. Теперь приглашаем вас стать частью этого дня.</p>
+        </div>
+    </div>  
+    
+    <!-- 5. Обращение к гостям -->
+    <div class="guests-message">
+        <h2>Дорогие гости!</h2>
+        <div class="message-text">
+            <p>Для нас огромная радость, что вы разделите с нами этот день. Ваша поддержка и любовь — лучшее, что мы могли пожелать.</p>
+            <p>С любовью приглашаем вас на наш свадебный день.</p>
+            <p>И помните: самый лучший подарок для нас — ваше присутствие и улыбки.</p>
+        </div>
+    </div>  
+
+    <!-- 6. Программа свадьбы -->
+    <div class="program">
+        <h2>Программа дня</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="time">10:30</div>
+                <div class="event">Церемония бракосочетания</div>
+                <div class="desc">Самое трогательное - соединение двух сердец перед родными и друзьями.</div>
+            </div>
+            <div class="timeline-item">
+                <div class="time">11:00</div>
+                <div class="event">Фотопауза</div>
+                <div class="desc">Запечатлеваем радость - общие фото на память с самыми близкими.</div>
+            </div>
+            <div class="timeline-item">
+                <div class="time">16:00</div>
+                <div class="event">Фуршет и приветственные напитки</div>
+                <div class="desc">Освежающие коктейли и закуски, пока все собираются.</div>
+            </div>
+            <div class="timeline-item">
+                <div class="time">16:30</div>
+                <div class="event">Банкет</div>
+                <div class="desc">Время вкусной еды, танцев и развлечений!</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. Место проведения -->
+    <div class="location">
+        <h2>Как нас найти</h2>
+        <div class="address">
+            <p>Ресторан «Savory House»</p>
+            <p>Республика Марий Эл, Йошкар - Ола, улица 70-летия Вооружённых Сил СССР, 20</p>
+        </div>
+        <div class="map-container">
+            <iframe 
+                src="https://yandex.ru/map-widget/v1/?ll=47.891694,56.621644&z=17&pt=47.891694,56.621644"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+        <div class="map-hint">
+            <p>📱 Нажмите на карту, чтобы открыть маршрут в навигаторе</p>
+        </div>
+    </div>
+
+    <!-- Коллаж из двух фотографий -->
+    <div class="collage-2">
+        <img src="images/photo1.jpg" alt="Фото 1">
+        <img src="images/photo2.jpg" alt="Фото 2">
+    </div>
+
+     <!-- 8. Отвечаем на ваши вопросы -->
+    <div class="faq">
+        <h2>Отвечаем на ваши вопросы</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <div class="faq-question">Есть ли Telegram - чат или канал с актуальной информацией по свадьбе?</div>
+                <div class="faq-answer">Да! Чуть ниже вы увидите иконку для перехода в свадебный канал. Важно! Если у вас не работает Telegram, то есть иконка с группой в ВК! </div>
+            </div>
+            <div class="faq-item">
+    <div class="faq-question">Есть ли дресс-код или пожелания по стилю одежды? Какая цветовая палитра у свадьбы?</div>
+    <div class="faq-answer">
+        <p>Пожалуйста, приходите в красивой одежде, которая соответствует торжественному настроению. Мы будем рады, если вы поддержите цветовую палитру нашей свадьбы:</p>
+        <div class="faq-palette">
+            <div class="faq-color" style="background-color: #1A1A1A;"></div>
+            <div class="faq-color" style="background-color: #4A4A4A;"></div>
+            <div class="faq-color" style="background-color: #D1D1D1;"></div>
+            <div class="faq-color" style="background-color: #D4AF37;"></div>
+        </div>
+        <p>Ориентируйтесь на эти оттенки.</p>
+    </div>
+</div>
+            <div class="faq-item">
+                <div class="faq-question">Когда и где будет проходить церемония бракосочетания?</div>
+                <div class="faq-answer">ЗАГС г.Йошкар-Ола, Набережная Брюгге, 5</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Вы хотите нас порадовать?</div>
+                <div class="faq-answer">Конечно вы хотите нас порадовать! Обязательная вещь, которую мы ждем от вас, небольшое дополнение к вашему подарку - ЭТО ЛОТЕРЕЙНЫЙ БИЛЕТ!:)</div>
+            </div>
+        </div>
+    </div>
+<!-- 9. Вы сможете прийти? -->
+    <div class="rsvp-block">
+        <h2>Вы сможете прийти?</h2>
+        <p>Пожалуйста, подтвердите своё присутствие.</p>
+        <a href="rsvp.html" class="rsvp-button">Подтвердить присутствие</a>
+    </div>
+
+ <!-- 10. Ссылка на чат для гостей -->
+    <div class="chat-link">
+        <h2>Присоединяйтесь к общему чату</h2>
+        <p>Здесь мы будем делиться новостями, фотографиями и отвечать на ваши вопросы</p>
+        <a href="https://t.me/+9aNEAiri9BJkZWRi" class="chat-button" target="_blank">Перейти в Telegram-канал</a>
+        <a href="https://vk.ru/invite/hTj5CYk" class="chat-button" target="_blank">Перейти в группу ВК</a>
+        <p class="chat-note">Ссылка активна для всех гостей. Если ссылка не открывается, напишите нам.</p>
+    </div>
+
+     <!-- 11. Финальная фотография и надпись -->
+    <div class="final-photo">
+        <img src="images/photo4.jpg" alt="Анастасия и Алексей">
+        <p class="final-caption">Вместе начинается навсегда</p>
+    </div>
+    </main>
+
+    <script src="script.js"></script>
+
+    <script>
+function handleFormSubmit(event) {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    
+    fetch(form.action, {
+        method: 'POST',
+        body: new URLSearchParams(formData),
+        mode: 'no-cors'
+    }).then(() => {
+        alert('Спасибо! Ваш ответ отправлен.');
+        form.reset();
+    }).catch(() => {
+        alert('Произошла ошибка. Попробуйте ещё раз или свяжитесь с нами.');
+    });
+    
+    return false;
+}
+</script>
+
+  <!-- Музыкальный плеер -->
+    <div class="music-player">
+        <audio id="wedding-song" loop preload="auto">
+            <source src="song.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудио.
+        </audio>
+        <button id="playPauseBtn" class="music-btn">Включить музыку</button>
+    </div>
+
+</body>
+</html>
