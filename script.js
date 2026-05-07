@@ -40,18 +40,3 @@ document.querySelectorAll('.faq-question').forEach(question => {
         }
     });
 });
-
-// Музыкальный плеер
-<script>
-        function playMusic() {
-            var audio = document.getElementById('wedding-song');
-            var btn = event.target;
-            if (audio.paused) {
-                audio.play();
-                btn.innerHTML = '🎵 Выключить музыку';
-            } else {
-                audio.pause();
-                btn.innerHTML = '🎵 Включить музыку';
-            }
-        }
-    </script>
